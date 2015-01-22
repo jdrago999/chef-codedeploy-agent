@@ -16,3 +16,4 @@ suites:
       - recipe[apt]
       - recipe[codedeploy-agent::default]
     attributes:
+
