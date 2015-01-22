@@ -4,7 +4,7 @@ package 'curl'
 bash 'install' do
   only_if 'curl --connect-timeout 1 http://169.254.169.254/latest/meta-data/placement/availability-zone'
   code <<-EOF
-apt-get install awscli
+apt-get install awscli ruby2.0
 ruby --version
 cd /home/ubuntu
 availability_zone = \$(curl --connect-timeout 1 http://169.254.169.254/latest/meta-data/placement/availability-zone)
