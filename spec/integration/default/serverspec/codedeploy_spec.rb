@@ -1,7 +1,7 @@
 require 'serverspec'
 
 # Required by serverspec
-set :backend, :exec
+#set :backend, :exec
 
 describe "AWS CodeDeploy Client" do
 
