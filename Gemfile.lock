@@ -189,8 +189,14 @@ GEM
       nokogiri (>= 1.4.0)
       nori (~> 1.0)
       wasabi (~> 1.0)
+    serverspec (1.7.0)
+      highline
+      net-ssh
+      rspec (~> 2.13)
+      specinfra (~> 1.13)
     slop (3.4.7)
     solve (0.8.2)
+    specinfra (1.27.5)
     systemu (2.5.2)
     test-kitchen (1.1.1)
       mixlib-shellout (~> 1.2)
@@ -233,5 +239,6 @@ DEPENDENCIES
   kitchen-docker
   kitchen-vagrant
   rake
+  serverspec
   test-kitchen (~> 1.0)
   yarjuf
