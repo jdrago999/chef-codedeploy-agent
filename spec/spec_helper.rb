@@ -1,15 +1,11 @@
 require "chefspec"
 require "chefspec/berkshelf"
-require "yarjuf"
 require "serverspec"
 # include Serverspec::Helper::Exec
 # include Serverspec::Helper::DetectOS
 
 
 RSpec.configure do |config|
-  config.before :all do
-    config.path = "/sbin:/usr/sbin"
-  end
   # Specify the path for Chef Solo to find cookbooks
   # config.cookbook_path = '/var/cookbooks'
 

@@ -6,11 +6,13 @@ gem "chefspec"
 gem "foodcritic", "~> 3.0"
 gem "serverspec"
 gem "rake"
-gem "yarjuf"
 
 group :integration do
   gem "test-kitchen", "~> 1.0"
   gem "kitchen-vagrant"
   gem "kitchen-docker"
 end
+
+
+# Trigger
 
